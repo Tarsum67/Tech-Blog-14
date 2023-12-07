@@ -16,3 +16,7 @@ N/A
 The purpose of this app is to post a blog about teach 
 
 # License
+N/A
+
+# Contributors
+I had help from AJ, CJ and Chris P. they all helped and walked we throught some code and err's
