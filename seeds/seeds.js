@@ -1,32 +1,7 @@
 const sequelize = require('../config/connection');
 const { User, BlogPost, Comment  } = require('../models'); // Replace with your actual model paths
 const bcrypt = require('bcrypt');
-// const userData = require('./userData.json');
-// const postData = require('./postData.json');
-// const commentData = require('./commentData.json');
 
-// const seedDatabase = async () => {
-//   await sequelize.sync({ force: true });
-
-//   const users = await User.bulkCreate(userData, {
-//     individualHooks: true,
-//     returning: true,
-//   });
-
-//   const blogpost = await BlogPost.bulkCreate(postData, {
-//     individualHooks: true,
-//     returning: true,
-//   });
-
-//   const comments = await Comment.bulkCreate(commentData, {
-//     individualHooks: true,
-//     returning: true,
-//   });
-
-//   process.exit(0);
-// };
-
-// seedDatabase();
 const seedDatabase = async () => {
   // Sync the models with the database
   await sequelize.sync({ force: true });
@@ -55,5 +30,5 @@ const seedDatabase = async () => {
   // Close the Sequelize connection
   sequelize.close();
 };
-seedDatabase();
 // Run the seed function
+seedDatabase();

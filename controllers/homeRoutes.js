@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
     
     const publicPosts = data.map(blogpost => blogpost.dataValues);
     console.log(publicPosts);
-    res.render('homePage', {
+    res.render('homepage', {
       publicPosts,
       logged_in: req.session.logged_in,
       user_id: req.session.user_id
@@ -41,7 +41,7 @@ router.get('/profile', withAuth, async (req, res) => {
     const data = blogPostData.get({ plain: true });
     const blogPosts = data.blogposts
     const username = blogPostData.dataValues.username
-    res.render('profile', {
+    res.render('profile',{
       blogPosts,
       username,
       logged_in: req.session.logged_in,
@@ -70,7 +70,7 @@ router.get('/login', (req, res) => {
     return;
   }
 
-  res.render('landingPage');
+  res.render('login');
 });
 
 router.get('/edit/:id', withAuth, async (req, res) => {

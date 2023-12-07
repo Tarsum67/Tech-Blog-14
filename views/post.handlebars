@@ -21,8 +21,8 @@
     <h2 class="text-center mt-2 display-4">Comments</h2>
     <div class="d-flex flex-column-reverse">
       {{#each blogPost.comments as |comment| }}
-      <div class="card">
-        <div class="card-header d-flex justify-content-between px-3">
+      <div class="card" style="background-color: #343a40; color: white;">
+        <div class="bg-dark card-header d-flex justify-content-between px-3">
           <h3>{{comment.user.username}}</h3>
           <p>{{comment.date_created}}</p>
         </div>
