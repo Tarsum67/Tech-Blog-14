@@ -1,0 +1,32 @@
+[
+    {
+        "username": "mary_smith",
+        "email": "mary.smith@email.com",
+        "password": "securePass789"
+      },
+      {
+        "username": "alex_jones",
+        "email": "alex.jones@example.com",
+        "password": "pass1234"
+      },
+      {
+        "username": "emily_green",
+        "email": "emily.green@mail.net",
+        "password": "greenTea456"
+      },
+      {
+        "username": "chris_brown",
+        "email": "chris.brown@gmail.com",
+        "password": "brownie987"
+      },
+      {
+        "username": "sara_wilson",
+        "email": "sara.wilson@example.org",
+        "password": "wilsonPass!"
+      }
+      
+      
+        
+      
+
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "title": "The Future of AI in 2023",
+        "description": "Exploring the latest developments and breakthroughs in artificial intelligence.",
+        "author_id": 2,
+        "public": true,
+        "date_created": "2023-02-10"
+      },
+      {
+        "title": "Blockchain Innovations Unveiled in 2023",
+        "description": "Discover the cutting-edge advancements in blockchain technology shaping the year ahead.",
+        "author_id": 3,
+        "public": true,
+        "date_created": "2023-03-05"
+      },
+      {
+        "title": "Revolutionizing Healthcare Tech in 2023",
+        "description": "A glimpse into the transformative technologies set to revolutionize the healthcare industry this year.",
+        "author_id": 4,
+        "public": true,
+        "date_created": "2023-04-20"
+      },
+      {
+        "title": "Eco-Tech: Sustainability in 2023",
+        "description": "Exploring the latest eco-friendly technologies and their impact on sustainability in 2023.",
+        "author_id": 5,
+        "public": true,
+        "date_created": "2023-05-15"
+      },
+      {
+        "title": "Space Tech Breakthroughs of 2023",
+        "description": "Dive into the latest advancements in space technology, from rocket science to space exploration missions.",
+        "author_id": 6,
+        "public": true,
+        "date_created": "2023-06-08"
+      }
+      
+      
+      
+
+]
